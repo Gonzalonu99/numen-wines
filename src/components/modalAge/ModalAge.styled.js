@@ -23,7 +23,7 @@ export const StyledLogo = styled.img`
 `;
 
 export const StyledMessage = styled.p`
-  font-size: 24px;
+  font-size: 17px;
   margin-bottom: 15px;
 `;
 
