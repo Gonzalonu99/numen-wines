@@ -1,0 +1,73 @@
+.alice-carousel{
+  background-color: #161314;
+  padding-top: 20px;
+}
+
+.contenedor-general{
+  background-color: #161314;
+  padding-top: 60px;
+}
+
+.carousel-h2{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+.span-title{
+  color: #7e1b22;
+}
+.alice-carousel__prev-btn {
+  text-align: left;
+  position: relative;
+  bottom: 11.5rem;
+}
+.alice-carousel__next-btn {
+  text-align: right;
+  position: relative;
+  bottom: 11.5rem;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+  color: #fff;
+  background-color: #500925;
+  opacity: .9;
+  font-size: 40px;
+  border-radius: 100px;
+}
+.alice-carousel__prev-btn-item:hover, .alice-carousel__next-btn-item:hover{
+  background-color: #826a45;
+}
+
+.alice-carousel__dots-item.__active {
+  color: #500925;
+}
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: #500925;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  background-color: #898da3;
+}
+
+.alice-carousel__wrapper {
+  height: 210px;
+}
+.alice-carousel__stage {
+  max-width: auto;
+  height: 200px;
+}
+
+.alice-carousel__stage-item {
+  margin: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
