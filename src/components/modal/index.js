@@ -59,13 +59,15 @@ const Overlay = styled.div`
   z-index:20000;
 `;
 const ContenedorModal = styled.div`
-  width: 500px;
+  width: 250px;
+  max-width:500px;
   min-height: 100px;
   background: #fff;
   position: relative;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: ${props => (props.padding ? props.padding : '20px')};
+  right:50px;
 `;
 
 const EncabezadoModal = styled.div`
@@ -77,7 +79,7 @@ const EncabezadoModal = styled.div`
   border-bottom: 1px solid #e8e8e8;
 
   h3 {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
     color: #1766dc;
   }

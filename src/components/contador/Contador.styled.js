@@ -75,3 +75,9 @@ export const Contenido = styled.div`
 		border-radius: 3px;
 	}
 `;
+export const StyledCounterTitle = styled.h2`
+	font-size:28px;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 30px;
+`;
