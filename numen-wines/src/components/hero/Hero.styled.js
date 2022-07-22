@@ -29,8 +29,8 @@ export const StyledText = styled.p`
   padding-top: 120px;
   text-align: center;
   color: ${props => props.theme.color.tertiary};
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 700;
   max-width: 500px;
   margin: 0 auto;
 `;
