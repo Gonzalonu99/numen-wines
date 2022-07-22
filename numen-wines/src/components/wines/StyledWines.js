@@ -14,7 +14,7 @@ export const StyledWinesContainer = styled.div`
 `;
 
 export const StyledCards = styled.div`
-  width: 320px;
+  width: 300px;
   height: 400px; 
   margin: 20px;
   padding: 20px;

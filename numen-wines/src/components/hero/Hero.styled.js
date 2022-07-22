@@ -33,6 +33,9 @@ export const StyledText = styled.p`
   font-weight: 700;
   max-width: 500px;
   margin: 0 auto;
+  @media(max-width:768){
+    font-size: 20px;
+  }
 `;
 
 export const ButtonsContainer = styled.div`
